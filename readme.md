@@ -54,11 +54,10 @@ Analisar o SENADOR 90, pois é quem masi teve pedidos de reembolso nesse ano.
  `pip install -r requirements.txt`<br/>	
 
 ## Quickstart
-https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/analise-exploratoria-CEAPS-2016-part01.ipynb
+https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/data-clean-CEAPS-2016-part01.ipynb
 
 Parte 02:
-https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/analise-exploratoria-CEAPS-2016-part01.ipynb
-
+https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/analise-exploratoria-CEAPS-2016-part02.ipynb
 
 ## References 
 - https://www12.senado.leg.br/transparencia/dados-abertos-transparencia/dados-abertos-ceaps
