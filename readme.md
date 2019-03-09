@@ -10,19 +10,21 @@
 
 O objetivo é explorar os dados públicos afim de aplicar as técnicas de data science. Foi realizado as seguintes etapas:
 
-- 1 STEP) Questions
+- 1 STEP) Prepare Env
+
+- 2 STEP) Questions
   - Qual o senador que mais gastou ?
   - Qual o senador que mais pediu reembolso?
   - Reembolsos menores que R$ 1,00
   - Gráfico comparando a quantidade gasta por cada senador 
   - Gráfico de gastos mensais dividido por tipo de gasto
 
-- 2 STEP) Data Acquisition
+- 3 STEP) Data Acquisition
   - Fonte: portal da transparência: https:/www12.senado.leg.br/transparencia/dados-abertos-transparencia/dados-abertos-ceaps
   - Ano: 2016
   - Format: CSV
 
-- 3 STEP) Data analysis
+- 4 STEP) Data analysis
 ```
 Notas:
 Os dados estão com formato de ;
@@ -42,9 +44,6 @@ Analisar o SENADOR 90, pois é quem masi teve pedidos de reembolso nesse ano.
   - Check duplicate
   - Check irrelevant data
 
-- Segunda Parte
-  - Views
-
 ## Pre Requirements
  - Python 3.7.1 or more:<br/>	
  `sudo apt install python3.7`	
@@ -54,10 +53,17 @@ Analisar o SENADOR 90, pois é quem masi teve pedidos de reembolso nesse ano.
  `pip install -r requirements.txt`<br/>	
 
 ## Quickstart
-https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/data-clean-CEAPS-2016-part01.ipynb
+Parte 01:
+https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/notebooks/CEAPS-2016-part01.ipynb
 
 Parte 02:
-https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/analise-exploratoria-CEAPS-2016-part02.ipynb
+https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/notebooks/CEAPS-2016-part02.ipynb
+
+## Run
+```
+ipython notebooks/CEAPS-2016-part01.ipynb
+ipython notebooks/CEAPS-2016-part02.ipynb
+```
 
 ## References 
 - https://www12.senado.leg.br/transparencia/dados-abertos-transparencia/dados-abertos-ceaps
