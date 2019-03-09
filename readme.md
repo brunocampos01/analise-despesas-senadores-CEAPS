@@ -59,10 +59,10 @@ https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/no
 Parte 02:
 https://github.com/brunocampos01/analise-despesas-senadores-CEAPS/blob/master/notebooks/CEAPS-2016-part02.ipynb
 
-## Run
+## Run in Terminal
 ```
-ipython notebooks/CEAPS-2016-part01.ipynb
-ipython notebooks/CEAPS-2016-part02.ipynb
+cd notebooks
+jupyter-notebook CEAPS-2016-part01.ipynb
 ```
 
 ## References 
