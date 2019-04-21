@@ -27,7 +27,6 @@ def drop_file(path):
 
     except IOError as err:
         print('IOError: ', err)
-        pass
 
 
 def retry(url, timeout, max_retries):
@@ -56,7 +55,7 @@ def get_links_csv(url):
 
     try:
         # Testing connection
-        r = requests.get(url, timeout=5)
+        requests.get(url, timeout=5)
 
         html = urlopen(url)
 
@@ -71,9 +70,9 @@ def get_links_csv(url):
         return links_pg
 
     except HTTPError as e:
-        print('HTTP error')
+        print('HTTP error', e)
     except URLError as e:
-        print('Server not found !')
+        print('Server not found, ', e)
 
 
 def dump_file_json(url):
