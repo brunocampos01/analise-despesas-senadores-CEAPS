@@ -42,7 +42,7 @@ Analisar o SENADOR 90, pois é quem masi teve pedidos de reembolso nesse ano.
   - Check duplicate
   - Check irrelevant data
 
-## Pre Requirements
+## Requirements
  - Python 3.7.1 or more
  ```bash
  sudo apt install python3.7
@@ -81,5 +81,6 @@ jupyter-notebook CEAPS-2016-part01.ipynb
 
 ## Author
 -  Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
+
 ## Copyright
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Bruno A. R. M. Campos</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
