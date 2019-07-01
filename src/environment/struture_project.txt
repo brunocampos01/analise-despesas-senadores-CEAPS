@@ -1,0 +1,43 @@
+.
+├── data
+│   ├── cleansing
+│   │   └── dados_limpos_ceaps_processed.csv
+│   ├── gastos2008.csv
+│   ├── gastos2009.csv
+│   ├── gastos2010.csv
+│   ├── gastos2011.csv
+│   ├── gastos2012.csv
+│   ├── gastos2013.csv
+│   ├── gastos2014.csv
+│   ├── gastos2015.csv
+│   ├── gastos2016.csv
+│   ├── gastos2017.csv
+│   ├── gastos2018.csv
+│   └── gastos2019.csv
+├── notebooks
+│   ├── CEAPS-2016-part01.ipynb
+│   └── CEAPS-2016-part02.ipynb
+├── readme.md
+├── references
+│   └── senado.jpg
+├── requirements.txt
+└── src
+    ├── environment
+    │   ├── config_environment.txt
+    │   ├── create_requirements.sh
+    │   ├── create_virtual_env.sh
+    │   ├── __init__.py
+    │   ├── makefile
+    │   ├── prepare_env.py
+    │   ├── README.md
+    │   ├── show_config_environment.sh
+    │   ├── show_struture_project.sh
+    │   ├── struture_project.txt
+    │   ├── test_environment.py
+    │   └── virtualenv_requirements.txt
+    ├── __init__.py
+    └── visualization
+        ├── hidden_code.js
+        └── matplotlib_config.ini
+
+7 directories, 33 files
