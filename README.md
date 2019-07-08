@@ -39,6 +39,43 @@ As bases de dados: https:/www12.senado.leg.br/transparencia/dados-abertos-transp
 
 ## Struture this Project
 ```
+.
+├── data
+│   ├── cleansing
+│   │   └── dados_limpos_ceaps_cleansing.csv
+│   └── dumps
+├── notebooks
+│   ├── 01-prepare-environment-and-data-acquisition.ipynb
+│   ├── CEAPS-2016-part01.ipynb
+│   └── CEAPS-2016-part02.ipynb
+├── README.md
+├── references
+│   └── senado.jpg
+└── src
+    ├── dump_data.py
+    ├── environment
+    │   ├── config_environment.txt
+    │   ├── container
+    │   │   └── Dockerfile
+    │   ├── create_requirements.sh
+    │   ├── create_virtual_env.sh
+    │   ├── __init__.py
+    │   ├── jupyter_notebook_config.py
+    │   ├── makefile
+    │   ├── prepare_env.py
+    │   ├── README.md
+    │   ├── requirements.txt
+    │   ├── show_config_environment.sh
+    │   ├── show_struture_project.sh
+    │   ├── struture_project.txt
+    │   ├── test_environment.py
+    │   ├── venv
+    │   └── virtualenv_requirements.txt
+    ├── __init__.py
+    └── visualization
+        └── matplotlib_config.ini
+
+10 directories, 24 files
 ```
 
 ## Requirements
