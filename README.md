@@ -41,41 +41,54 @@ As bases de dados: https:/www12.senado.leg.br/transparencia/dados-abertos-transp
 ```
 .
 ├── data
-│   ├── cleansing
-│   │   └── dados_limpos_ceaps_cleansing.csv
-│   └── dumps
+│   ├── cleansing
+│   │   ├── dados_limpos_ceaps_cleansing.csv
+│   │   └── map_senadores.csv
+│   └── dumps
+│       ├── 2008.csv
+│       ├── 2009.csv
+│       ├── 2010.csv
+│       ├── 2011.csv
+│       ├── 2012.csv
+│       ├── 2013.csv
+│       ├── 2014.csv
+│       ├── 2015.csv
+│       ├── 2016.csv
+│       ├── 2017.csv
+│       ├── 2018.csv
+│       └── 2019.csv
 ├── notebooks
-│   ├── 01-prepare-environment-and-data-acquisition.ipynb
-│   ├── CEAPS-2016-part01.ipynb
-│   └── CEAPS-2016-part02.ipynb
+│   ├── 01-prepare-environment-and-data-acquisition.ipynb
+│   ├── 02-data-cleaning.ipynb
+│   └── 03-data-exploration.ipynb
 ├── README.md
 ├── references
-│   └── senado.jpg
+│   └── senado.jpg
 └── src
     ├── dump_data.py
     ├── environment
-    │   ├── config_environment.txt
-    │   ├── container
-    │   │   └── Dockerfile
-    │   ├── create_requirements.sh
-    │   ├── create_virtual_env.sh
-    │   ├── __init__.py
-    │   ├── jupyter_notebook_config.py
-    │   ├── makefile
-    │   ├── prepare_env.py
-    │   ├── README.md
-    │   ├── requirements.txt
-    │   ├── show_config_environment.sh
-    │   ├── show_struture_project.sh
-    │   ├── struture_project.txt
-    │   ├── test_environment.py
-    │   ├── venv
-    │   └── virtualenv_requirements.txt
+    │   ├── config_environment.txt
+    │   ├── container
+    │   │   └── Dockerfile
+    │   ├── create_requirements.sh
+    │   ├── create_virtual_env.sh
+    │   ├── __init__.py
+    │   ├── jupyter_notebook_config.py
+    │   ├── makefile
+    │   ├── prepare_env.py
+    │   ├── README.md
+    │   ├── requirements.txt
+    │   ├── show_config_environment.sh
+    │   ├── show_struture_project.sh
+    │   ├── struture_project.txt
+    │   ├── test_environment.py
+    │   ├── venv
+    │   └── virtualenv_requirements.txt
     ├── __init__.py
     └── visualization
         └── matplotlib_config.ini
 
-10 directories, 24 files
+10 directories, 37 files
 ```
 
 ## Requirements

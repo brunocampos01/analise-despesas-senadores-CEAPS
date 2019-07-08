@@ -19,10 +19,10 @@ Jupyter Version:
 Disk Usage:
 
 data:
-4,9M	data/
+65M	data/
 
 virtual env:
 377M	src/environment/venv/
 
 all:
-420M	.
+492M	.
