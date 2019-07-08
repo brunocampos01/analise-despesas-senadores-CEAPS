@@ -1,7 +1,6 @@
 # Análise de dados dos gastos públicos dos Senadores
 [![Python 3.7](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/452bbb3d75024f76a8c81a98e7bf73b4)](https://www.codacy.com/app/brunocampos01/learning-data-science?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=brunocampos01/learning-data-science&amp;utm_campaign=Badge_Grade)
 
 ## Describe project
 
